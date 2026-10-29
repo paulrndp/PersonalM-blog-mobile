@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 740" width="360" height="740" style="background: transparent; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <!-- Device Outer Shadow and Frame -->
+  <defs>
+    <filter id="phoneShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+    <linearGradient id="heroGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Device Body -->
+  <rect x="10" y="10" width="340" height="720" rx="44" fill="#0f172a" filter="url(#phoneShadow)" stroke="#334155" stroke-width="3"/>
+  <rect x="18" y="18" width="324" height="704" rx="36" fill="#fcfbf7"/>
+
+  <!-- Dynamic Island / Speaker Notch -->
+  <rect x="130" y="26" width="100" height="22" rx="11" fill="#0f172a"/>
+
+  <!-- Status Bar -->
+  <text x="36" y="42" font-size="12" font-weight="600" fill="#1e293b">9:41</text>
+  <circle cx="300" cy="38" r="3" fill="#1e293b"/>
+  <path d="M 308 41 L 314 34 L 320 41 Z" fill="#1e293b"/>
+  <rect x="306" y="34" width="14" height="8" rx="2" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="308" y="36" width="9" height="4" rx="1" fill="#1e293b"/>
+
+  <!-- App Header -->
+  <text x="32" y="80" font-size="11" font-weight="700" fill="#b45309" letter-spacing="1">PERSONAL BLOG &amp; NOVELS</text>
+  <text x="32" y="104" font-size="20" font-weight="800" font-family="Georgia, serif" fill="#0f172a">PersonalM</text>
+
+  <!-- Hero Card -->
+  <g transform="translate(32, 120)">
+    <rect width="296" height="150" rx="18" fill="url(#heroGradient)" stroke="#fde68a" stroke-width="1"/>
+    
+    <!-- Author Badge -->
+    <rect x="14" y="14" width="132" height="22" rx="11" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/>
+    <text x="24" y="29" font-size="10" font-weight="700" fill="#78350f">✍️ Author &amp; Storyteller</text>
+    
+    <text x="14" y="60" font-size="16" font-weight="800" font-family="Georgia, serif" fill="#451a03">Hannah Montemayor</text>
+    <text x="14" y="78" font-size="10.5" fill="#78350f" width="260">
+      Stories written from the heart, thoughts whispered
+    </text>
+    <text x="14" y="92" font-size="10.5" fill="#78350f">
+      to the stars. Serialized novels &amp; candid thoughts.
+    </text>
+
+    <!-- Hero CTA Button -->
+    <rect x="14" y="108" width="130" height="28" rx="14" fill="#78350f"/>
+    <text x="30" y="126" font-size="11" font-weight="600" fill="#ffffff">📖 Explore Stories</text>
+  </g>
+
+  <!-- Section: Featured Novels -->
+  <text x="32" y="298" font-size="11" font-weight="700" fill="#94a3b8" letter-spacing="1">SERIALIZED NOVELS</text>
+  <text x="32" y="318" font-size="16" font-weight="800" font-family="Georgia, serif" fill="#0f172a">Featured Stories</text>
+  <text x="286" y="317" font-size="11" font-weight="600" fill="#b45309">See all →</text>
+
+  <!-- Novel Card 1 -->
+  <g transform="translate(32, 332)">
+    <rect width="142" height="168" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="0" y="0" width="142" height="88" rx="14" fill="#1e293b"/>
+    <!-- Mock book cover art -->
+    <rect x="10" y="10" width="122" height="68" rx="8" fill="#334155"/>
+    <text x="71" y="48" font-size="20" text-anchor="middle" fill="#ffffff">🌲</text>
+    <rect x="8" y="68" width="70" height="14" rx="4" fill="#b45309"/>
+    <text x="12" y="79" font-size="8.5" font-weight="700" fill="#ffffff">Romance</text>
+
+    <text x="10" y="106" font-size="12" font-weight="700" font-family="Georgia, serif" fill="#0f172a">The Whispering...</text>
+    <text x="10" y="122" font-size="9.5" fill="#64748b">3 Chapters • 142 views</text>
+    <rect x="10" y="136" width="122" height="22" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.8"/>
+    <text x="71" y="151" font-size="9.5" font-weight="600" text-anchor="middle" fill="#b45309">Read Chapter 1</text>
+  </g>
+
+  <!-- Novel Card 2 -->
+  <g transform="translate(186, 332)">
+    <rect width="142" height="168" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="0" y="0" width="142" height="88" rx="14" fill="#312e81"/>
+    <!-- Mock book cover art -->
+    <rect x="10" y="10" width="122" height="68" rx="8" fill="#4338ca"/>
+    <text x="71" y="48" font-size="20" text-anchor="middle" fill="#ffffff">✨</text>
+    <rect x="8" y="68" width="60" height="14" rx="4" fill="#6366f1"/>
+    <text x="12" y="79" font-size="8.5" font-weight="700" fill="#ffffff">Fantasy</text>
+
+    <text x="10" y="106" font-size="12" font-weight="700" font-family="Georgia, serif" fill="#0f172a">Echoes of Eternity</text>
+    <text x="10" y="122" font-size="9.5" fill="#64748b">3 Chapters • 215 views</text>
+    <rect x="10" y="136" width="122" height="22" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.8"/>
+    <text x="71" y="151" font-size="9.5" font-weight="600" text-anchor="middle" fill="#4338ca">Read Chapter 1</text>
+  </g>
+
+  <!-- Section: Recent Musings -->
+  <text x="32" y="528" font-size="11" font-weight="700" fill="#94a3b8" letter-spacing="1">LATEST REFLECTIONS</text>
+  <text x="32" y="548" font-size="16" font-weight="800" font-family="Georgia, serif" fill="#0f172a">Recent Musings</text>
+
+  <!-- Blog Snippet Card -->
+  <g transform="translate(32, 560)">
+    <rect width="296" height="74" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="12" y="12" width="48" height="18" rx="6" fill="#fef3c7"/>
+    <text x="18" y="24" font-size="8.5" font-weight="700" fill="#92400e">✍️ Blog</text>
+    <text x="210" y="24" font-size="9" fill="#94a3b8">Oct 29 • 64 reads</text>
+
+    <text x="12" y="46" font-size="12.5" font-weight="700" fill="#0f172a">The Art of Mindful Storytelling</text>
+    <text x="12" y="61" font-size="9.5" fill="#64748b">Writing is more than stringing words together...</text>
+  </g>
+
+  <!-- Bottom Navigation Bar -->
+  <g transform="translate(18, 652)">
+    <rect width="324" height="60" rx="0" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    
+    <!-- Tab 1: Home (Active) -->
+    <circle cx="45" cy="22" r="14" fill="#fef3c7"/>
+    <text x="45" y="26" font-size="13" text-anchor="middle">🏠</text>
+    <text x="45" y="46" font-size="9.5" font-weight="700" text-anchor="middle" fill="#b45309">Home</text>
+
+    <!-- Tab 2: Novels -->
+    <text x="125" y="26" font-size="13" text-anchor="middle">📚</text>
+    <text x="125" y="46" font-size="9.5" font-weight="500" text-anchor="middle" fill="#64748b">Novels</text>
+
+    <!-- Tab 3: Blog -->
+    <text x="205" y="26" font-size="13" text-anchor="middle">💭</text>
+    <text x="205" y="46" font-size="9.5" font-weight="500" text-anchor="middle" fill="#64748b">Reflections</text>
+
+    <!-- Tab 4: Settings -->
+    <text x="280" y="26" font-size="13" text-anchor="middle">⚙️</text>
+    <text x="280" y="46" font-size="9.5" font-weight="500" text-anchor="middle" fill="#64748b">Settings</text>
+  </g>
+
+  <!-- Home Indicator Bar -->
+  <rect x="120" y="704" width="120" height="4" rx="2" fill="#0f172a"/>
+</svg>

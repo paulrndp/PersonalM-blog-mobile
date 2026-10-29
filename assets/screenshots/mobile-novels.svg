@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 740" width="360" height="740" style="background: transparent; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <filter id="phoneShadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Device Body -->
+  <rect x="10" y="10" width="340" height="720" rx="44" fill="#0f172a" filter="url(#phoneShadow2)" stroke="#334155" stroke-width="3"/>
+  <rect x="18" y="18" width="324" height="704" rx="36" fill="#fcfbf7"/>
+
+  <!-- Dynamic Island -->
+  <rect x="130" y="26" width="100" height="22" rx="11" fill="#0f172a"/>
+
+  <!-- Status Bar -->
+  <text x="36" y="42" font-size="12" font-weight="600" fill="#1e293b">9:41</text>
+  <circle cx="300" cy="38" r="3" fill="#1e293b"/>
+  <rect x="306" y="34" width="14" height="8" rx="2" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="308" y="36" width="9" height="4" rx="1" fill="#1e293b"/>
+
+  <!-- Screen Title -->
+  <text x="32" y="80" font-size="11" font-weight="700" fill="#b45309" letter-spacing="1">SERIALIZED FICTION</text>
+  <text x="32" y="104" font-size="20" font-weight="800" font-family="Georgia, serif" fill="#0f172a">Novels &amp; Stories</text>
+
+  <!-- Search Bar -->
+  <g transform="translate(32, 116)">
+    <rect width="296" height="40" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
+    <text x="14" y="25" font-size="13" fill="#94a3b8">🔍</text>
+    <text x="36" y="25" font-size="12" fill="#94a3b8">Search novels, genres, or tags...</text>
+  </g>
+
+  <!-- Filter Pills -->
+  <g transform="translate(32, 168)">
+    <!-- Pill 1: All (Active) -->
+    <rect x="0" y="0" width="46" height="26" rx="13" fill="#b45309"/>
+    <text x="16" y="17" font-size="10.5" font-weight="700" fill="#ffffff">All</text>
+
+    <!-- Pill 2: Romance -->
+    <rect x="52" y="0" width="76" height="26" rx="13" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="64" y="17" font-size="10.5" font-weight="600" fill="#64748b">Romance</text>
+
+    <!-- Pill 3: Fantasy -->
+    <rect x="134" y="0" width="70" height="26" rx="13" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="146" y="17" font-size="10.5" font-weight="600" fill="#64748b">Fantasy</text>
+
+    <!-- Pill 4: Sci-Fi -->
+    <rect x="210" y="0" width="64" height="26" rx="13" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="222" y="17" font-size="10.5" font-weight="600" fill="#64748b">Sci-Fi</text>
+  </g>
+
+  <!-- Story List Item 1 -->
+  <g transform="translate(32, 206)">
+    <rect width="296" height="96" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <!-- Book Cover Thumbnail -->
+    <rect x="10" y="10" width="56" height="76" rx="8" fill="#1e293b"/>
+    <text x="38" y="52" font-size="18" text-anchor="middle" fill="#ffffff">🌲</text>
+
+    <!-- Content -->
+    <rect x="76" y="12" width="86" height="16" rx="4" fill="#fef3c7"/>
+    <text x="82" y="23" font-size="8.5" font-weight="700" fill="#92400e">Romance &amp; Drama</text>
+
+    <text x="76" y="44" font-size="13" font-weight="800" font-family="Georgia, serif" fill="#0f172a">The Whispering Pines</text>
+    <text x="76" y="58" font-size="9.5" fill="#64748b">A heartfelt story of discovering roots...</text>
+    <text x="76" y="74" font-size="9" font-weight="600" fill="#b45309">3 Chapters • 142 Views</text>
+    <text x="260" y="74" font-size="11" font-weight="700" fill="#b45309">Read →</text>
+  </g>
+
+  <!-- Story List Item 2 -->
+  <g transform="translate(32, 314)">
+    <rect width="296" height="96" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="10" y="10" width="56" height="76" rx="8" fill="#312e81"/>
+    <text x="38" y="52" font-size="18" text-anchor="middle" fill="#ffffff">✨</text>
+
+    <rect x="76" y="12" width="84" height="16" rx="4" fill="#ede9fe"/>
+    <text x="82" y="23" font-size="8.5" font-weight="700" fill="#5b21b6">Fantasy &amp; Mystery</text>
+
+    <text x="76" y="44" font-size="13" font-weight="800" font-family="Georgia, serif" fill="#0f172a">Echoes of Eternity</text>
+    <text x="76" y="58" font-size="9.5" fill="#64748b">An epic tale across mystical realms...</text>
+    <text x="76" y="74" font-size="9" font-weight="600" fill="#5b21b6">3 Chapters • 215 Views</text>
+    <text x="260" y="74" font-size="11" font-weight="700" fill="#5b21b6">Read →</text>
+  </g>
+
+  <!-- Story List Item 3 -->
+  <g transform="translate(32, 422)">
+    <rect width="296" height="96" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="10" y="10" width="56" height="76" rx="8" fill="#0f172a"/>
+    <text x="38" y="52" font-size="18" text-anchor="middle" fill="#ffffff">⚡</text>
+
+    <rect x="76" y="12" width="86" height="16" rx="4" fill="#ecfeff"/>
+    <text x="82" y="23" font-size="8.5" font-weight="700" fill="#0e7490">Sci-Fi &amp; Cyberpunk</text>
+
+    <text x="76" y="44" font-size="13" font-weight="800" font-family="Georgia, serif" fill="#0f172a">Beneath the Neon Rain</text>
+    <text x="76" y="58" font-size="9.5" fill="#64748b">In a sprawling dystopian megacity...</text>
+    <text x="76" y="74" font-size="9" font-weight="600" fill="#0e7490">3 Chapters • 178 Views</text>
+    <text x="260" y="74" font-size="11" font-weight="700" fill="#0e7490">Read →</text>
+  </g>
+
+  <!-- Story List Item 4 -->
+  <g transform="translate(32, 530)">
+    <rect width="296" height="96" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="10" y="10" width="56" height="76" rx="8" fill="#1e3a5f"/>
+    <text x="38" y="52" font-size="18" text-anchor="middle" fill="#ffffff">🌊</text>
+
+    <rect x="76" y="12" width="76" height="16" rx="4" fill="#f0fdf4"/>
+    <text x="82" y="23" font-size="8.5" font-weight="700" fill="#15803d">Literary Fiction</text>
+
+    <text x="76" y="44" font-size="13" font-weight="800" font-family="Georgia, serif" fill="#0f172a">Letters to the Horizon</text>
+    <text x="76" y="58" font-size="9.5" fill="#64748b">A journey of redemption and healing...</text>
+    <text x="76" y="74" font-size="9" font-weight="600" fill="#15803d">3 Chapters • 130 Views</text>
+    <text x="260" y="74" font-size="11" font-weight="700" fill="#15803d">Read →</text>
+  </g>
+
+  <!-- Bottom Navigation Bar -->
+  <g transform="translate(18, 652)">
+    <rect width="324" height="60" rx="0" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="45" y="26" font-size="13" text-anchor="middle">🏠</text>
+    <text x="45" y="46" font-size="9.5" font-weight="500" text-anchor="middle" fill="#64748b">Home</text>
+
+    <circle cx="125" cy="22" r="14" fill="#fef3c7"/>
+    <text x="125" y="26" font-size="13" text-anchor="middle">📚</text>
+    <text x="125" y="46" font-size="9.5" font-weight="700" text-anchor="middle" fill="#b45309">Novels</text>
+
+    <text x="205" y="26" font-size="13" text-anchor="middle">💭</text>
+    <text x="205" y="46" font-size="9.5" font-weight="500" text-anchor="middle" fill="#64748b">Reflections</text>
+
+    <text x="280" y="26" font-size="13" text-anchor="middle">⚙️</text>
+    <text x="280" y="46" font-size="9.5" font-weight="500" text-anchor="middle" fill="#64748b">Settings</text>
+  </g>
+
+  <!-- Home Indicator Bar -->
+  <rect x="120" y="704" width="120" height="4" rx="2" fill="#0f172a"/>
+</svg>

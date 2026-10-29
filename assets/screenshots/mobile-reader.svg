@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 740" width="360" height="740" style="background: transparent; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <filter id="phoneShadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Device Body -->
+  <rect x="10" y="10" width="340" height="720" rx="44" fill="#0f172a" filter="url(#phoneShadow3)" stroke="#334155" stroke-width="3"/>
+  
+  <!-- Screen Background: Warm Sepia Reading Paper (#fbf0d9) -->
+  <rect x="18" y="18" width="324" height="704" rx="36" fill="#fbf0d9"/>
+
+  <!-- Dynamic Island -->
+  <rect x="130" y="26" width="100" height="22" rx="11" fill="#0f172a"/>
+
+  <!-- Status Bar (Sepia Tone) -->
+  <text x="36" y="42" font-size="12" font-weight="600" fill="#451a03">9:41</text>
+  <circle cx="300" cy="38" r="3" fill="#451a03"/>
+  <rect x="306" y="34" width="14" height="8" rx="2" fill="none" stroke="#451a03" stroke-width="1.2"/>
+  <rect x="308" y="36" width="9" height="4" rx="1" fill="#451a03"/>
+
+  <!-- Top Navigation & Controls Bar -->
+  <g transform="translate(32, 68)">
+    <text x="0" y="16" font-size="14" font-weight="700" fill="#78350f">‹ Back</text>
+    
+    <text x="148" y="8" font-size="10.5" font-weight="700" fill="#92400e" text-anchor="middle" letter-spacing="0.5">THE WHISPERING PINES</text>
+    <text x="148" y="22" font-size="9" fill="#a16207" text-anchor="middle">Chapter 1 of 3</text>
+
+    <!-- Bookmark Icon -->
+    <text x="280" y="16" font-size="14" fill="#78350f">🔖</text>
+  </g>
+
+  <!-- Reader Settings Toolbar Card -->
+  <g transform="translate(32, 102)">
+    <rect width="296" height="44" rx="12" fill="#f4e4c1" stroke="#ecd5a3" stroke-width="1"/>
+    
+    <!-- Theme Selector: Sepia (Active), Light, Dark -->
+    <rect x="8" y="8" width="28" height="28" rx="14" fill="#ffffff" stroke="#d6c398" stroke-width="1"/>
+    <text x="15" y="26" font-size="12">☀️</text>
+
+    <rect x="42" y="8" width="28" height="28" rx="14" fill="#78350f" stroke="#451a03" stroke-width="1"/>
+    <text x="49" y="26" font-size="12">📜</text>
+
+    <rect x="76" y="8" width="28" height="28" rx="14" fill="#18181b"/>
+    <text x="83" y="26" font-size="12">🌙</text>
+
+    <!-- Divider -->
+    <line x1="116" y1="12" x2="116" y2="32" stroke="#d6c398" stroke-width="1"/>
+
+    <!-- Font Sizing Controls: A- 17px A+ -->
+    <text x="136" y="27" font-size="12" font-weight="700" fill="#78350f">A-</text>
+    <rect x="160" y="12" width="48" height="20" rx="6" fill="#ecd5a3"/>
+    <text x="184" y="26" font-size="10.5" font-weight="700" text-anchor="middle" fill="#451a03">17px</text>
+    <text x="220" y="27" font-size="14" font-weight="700" fill="#78350f">A+</text>
+
+    <!-- Reading Progress -->
+    <text x="274" y="26" font-size="10.5" font-weight="700" fill="#92400e">34%</text>
+  </g>
+
+  <!-- Chapter Title Header -->
+  <g transform="translate(32, 172)">
+    <text x="0" y="0" font-size="10.5" font-weight="700" fill="#92400e" letter-spacing="1">PART ONE</text>
+    <text x="0" y="24" font-size="20" font-weight="800" font-family="Georgia, serif" fill="#451a03">
+      Chapter 1: A Cold Beginning
+    </text>
+    <line x1="0" y1="36" x2="48" y2="36" stroke="#b45309" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Reading Text Content (Serif Book Typography) -->
+  <g transform="translate(32, 230)" font-family="Georgia, serif" font-size="13" fill="#451a03" letter-spacing="0.2">
+    <!-- Drop cap 'T' -->
+    <rect x="0" y="2" width="28" height="30" rx="4" fill="#78350f"/>
+    <text x="14" y="24" font-size="20" font-weight="800" text-anchor="middle" fill="#fbf0d9">T</text>
+    
+    <text x="36" y="14">he winter air held a crisp promise.</text>
+    <text x="36" y="28">Hannah tightened her woolen scarf</text>
+    <text x="0" y="46">around her neck and looked up at the quiet</text>
+    <text x="0" y="64">canopy of tall pine trees.</text>
+
+    <text x="0" y="96">Each step crunching beneath her boots</text>
+    <text x="0" y="114">reminded her of winters long past in the quiet</text>
+    <text x="0" y="132">countryside. She had left the city behind,</text>
+    <text x="0" y="150">carrying nothing but a worn leather bag and a</text>
+    <text x="0" y="168">box of old letters that had arrived unaddressed</text>
+    <text x="0" y="186">to her doorstep.</text>
+
+    <text x="0" y="218">By mid-afternoon, the sun barely broke</text>
+    <text x="0" y="236">through the thick gray clouds. Ahead lay an</text>
+    <text x="0" y="254">old cabin with light spilling from a frosted</text>
+    <text x="0" y="272">window. Smoke curled lazily from the</text>
+    <text x="0" y="290">stone chimney.</text>
+
+    <text x="0" y="322">"Someone is still here," she whispered softly.</text>
+  </g>
+
+  <!-- Bottom Reader Navigation Controls -->
+  <g transform="translate(32, 608)">
+    <rect width="296" height="52" rx="14" fill="#f4e4c1" stroke="#ecd5a3" stroke-width="1"/>
+    
+    <text x="20" y="31" font-size="11" font-weight="700" fill="#a16207">‹ Previous</text>
+    
+    <circle cx="148" cy="26" r="4" fill="#b45309"/>
+    <circle cx="160" cy="26" r="4" fill="#d6c398"/>
+    <circle cx="172" cy="26" r="4" fill="#d6c398"/>
+
+    <rect x="194" y="10" width="92" height="32" rx="10" fill="#78350f"/>
+    <text x="240" y="30" font-size="11" font-weight="700" text-anchor="middle" fill="#ffffff">Next Part ›</text>
+  </g>
+
+  <!-- Home Indicator Bar -->
+  <rect x="120" y="704" width="120" height="4" rx="2" fill="#451a03"/>
+</svg>

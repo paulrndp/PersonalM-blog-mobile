@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 740" width="360" height="740" style="background: transparent; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <filter id="phoneShadow4" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Device Body -->
+  <rect x="10" y="10" width="340" height="720" rx="44" fill="#0f172a" filter="url(#phoneShadow4)" stroke="#334155" stroke-width="3"/>
+  <rect x="18" y="18" width="324" height="704" rx="36" fill="#fcfbf7"/>
+
+  <!-- Dynamic Island -->
+  <rect x="130" y="26" width="100" height="22" rx="11" fill="#0f172a"/>
+
+  <!-- Status Bar -->
+  <text x="36" y="42" font-size="12" font-weight="600" fill="#1e293b">9:41</text>
+  <circle cx="300" cy="38" r="3" fill="#1e293b"/>
+  <rect x="306" y="34" width="14" height="8" rx="2" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="308" y="36" width="9" height="4" rx="1" fill="#1e293b"/>
+
+  <!-- Screen Title -->
+  <text x="32" y="80" font-size="11" font-weight="700" fill="#b45309" letter-spacing="1">ESSAYS &amp; MUSINGS</text>
+  <text x="32" y="104" font-size="20" font-weight="800" font-family="Georgia, serif" fill="#0f172a">Reflections &amp; Thoughts</text>
+
+  <!-- Category Filter Tabs -->
+  <g transform="translate(32, 120)">
+    <!-- Tab 1: All -->
+    <rect x="0" y="0" width="60" height="30" rx="15" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="18" y="19" font-size="11" font-weight="600" fill="#64748b">All (10)</text>
+
+    <!-- Tab 2: Blog (Active) -->
+    <rect x="68" y="0" width="104" height="30" rx="15" fill="#b45309"/>
+    <text x="80" y="19" font-size="11" font-weight="700" fill="#ffffff">✍️ Blog Articles</text>
+
+    <!-- Tab 3: Random -->
+    <rect x="180" y="0" width="116" height="30" rx="15" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="192" y="19" font-size="11" font-weight="600" fill="#64748b">💭 Random Thoughts</text>
+  </g>
+
+  <!-- Post Card 1 -->
+  <g transform="translate(32, 166)">
+    <rect width="296" height="136" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    
+    <rect x="12" y="12" width="56" height="18" rx="6" fill="#fef3c7"/>
+    <text x="18" y="24" font-size="9" font-weight="700" fill="#92400e">✍️ Blog</text>
+
+    <text x="206" y="24" font-size="9" fill="#94a3b8">Oct 29 • 64 reads</text>
+
+    <text x="12" y="50" font-size="14" font-weight="800" font-family="Georgia, serif" fill="#0f172a">
+      The Art of Mindful Storytelling
+    </text>
+
+    <text x="12" y="72" font-size="10.5" fill="#475569">
+      Writing is more than stringing words together; it is
+    </text>
+    <text x="12" y="88" font-size="10.5" fill="#475569">
+      giving life to unspoken sentiments and observing...
+    </text>
+
+    <line x1="12" y1="102" x2="284" y2="102" stroke="#f1f5f9" stroke-width="1"/>
+    <text x="12" y="122" font-size="10" font-weight="700" fill="#b45309">Read Article →</text>
+  </g>
+
+  <!-- Post Card 2 -->
+  <g transform="translate(32, 314)">
+    <rect width="296" height="136" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    
+    <rect x="12" y="12" width="56" height="18" rx="6" fill="#fef3c7"/>
+    <text x="18" y="24" font-size="9" font-weight="700" fill="#92400e">✍️ Blog</text>
+
+    <text x="206" y="24" font-size="9" fill="#94a3b8">Oct 29 • 88 reads</text>
+
+    <text x="12" y="50" font-size="14" font-weight="800" font-family="Georgia, serif" fill="#0f172a">
+      Finding Joy in the Little Things
+    </text>
+
+    <text x="12" y="72" font-size="10.5" fill="#475569">
+      Life moves fast, and often we get caught up in
+    </text>
+    <text x="12" y="88" font-size="10.5" fill="#475569">
+      deadlines and huge plans. True peace is found...
+    </text>
+
+    <line x1="12" y1="102" x2="284" y2="102" stroke="#f1f5f9" stroke-width="1"/>
+    <text x="12" y="122" font-size="10" font-weight="700" fill="#b45309">Read Article →</text>
+  </g>
+
+  <!-- Post Card 3 -->
+  <g transform="translate(32, 462)">
+    <rect width="296" height="136" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    
+    <rect x="12" y="12" width="56" height="18" rx="6" fill="#fef3c7"/>
+    <text x="18" y="24" font-size="9" font-weight="700" fill="#92400e">✍️ Blog</text>
+
+    <text x="202" y="24" font-size="9" fill="#94a3b8">Oct 29 • 112 reads</text>
+
+    <text x="12" y="50" font-size="14" font-weight="800" font-family="Georgia, serif" fill="#0f172a">
+      How I Outline Serialized Novels
+    </text>
+
+    <text x="12" y="72" font-size="10.5" fill="#475569">
+      A blend of color-coded index cards, detailed character
+    </text>
+    <text x="12" y="88" font-size="10.5" fill="#475569">
+      sheets, and room for spontaneity along the journey...
+    </text>
+
+    <line x1="12" y1="102" x2="284" y2="102" stroke="#f1f5f9" stroke-width="1"/>
+    <text x="12" y="122" font-size="10" font-weight="700" fill="#b45309">Read Article →</text>
+  </g>
+
+  <!-- Bottom Navigation Bar -->
+  <g transform="translate(18, 652)">
+    <rect width="324" height="60" rx="0" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="45" y="26" font-size="13" text-anchor="middle">🏠</text>
+    <text x="45" y="46" font-size="9.5" font-weight="500" text-anchor="middle" fill="#64748b">Home</text>
+
+    <text x="125" y="26" font-size="13" text-anchor="middle">📚</text>
+    <text x="125" y="46" font-size="9.5" font-weight="500" text-anchor="middle" fill="#64748b">Novels</text>
+
+    <circle cx="205" cy="22" r="14" fill="#fef3c7"/>
+    <text x="205" y="26" font-size="13" text-anchor="middle">💭</text>
+    <text x="205" y="46" font-size="9.5" font-weight="700" text-anchor="middle" fill="#b45309">Reflections</text>
+
+    <text x="280" y="26" font-size="13" text-anchor="middle">⚙️</text>
+    <text x="280" y="46" font-size="9.5" font-weight="500" text-anchor="middle" fill="#64748b">Settings</text>
+  </g>
+
+  <!-- Home Indicator Bar -->
+  <rect x="120" y="704" width="120" height="4" rx="2" fill="#0f172a"/>
+</svg>
