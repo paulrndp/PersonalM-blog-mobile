@@ -7,6 +7,7 @@ import {
   StyleSheet,
   ActivityIndicator,
   RefreshControl,
+  Image,
 } from "react-native";
 import { fetchStoriesApi, fetchPostsApi, Story, Post } from "../services/api";
 import { BookOpen, Sparkles, Feather, ChevronRight, Eye, Layers } from "lucide-react-native";
@@ -49,6 +50,13 @@ export default function HomeScreen({ navigation }: any) {
     >
       {/* Hero Header */}
       <View style={styles.heroCard}>
+        <View style={{ alignItems: "center", marginBottom: 12 }}>
+          <Image
+            source={require("../../assets/logo-hannahm.png")}
+            style={{ width: 140, height: 140, resizeMode: "contain" }}
+          />
+        </View>
+
         <View style={styles.badge}>
           <Feather size={12} color="#78350f" />
           <Text style={styles.badgeText}>Author &amp; Storyteller</Text>
